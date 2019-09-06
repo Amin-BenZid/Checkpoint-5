@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Checkpoint3</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="subscribe">
+        <form id="subscribe-form">
+          <fieldset>
+            
+              <legend>Subscribe</legend>
+              <br>
+              <div class="all">
+              <label for="name">Name : </label>
+              <br />
+              <input id="name" name="name" type="text" />
+              <br />
+              <br>
+
+              <label for="email"> Email : </label>
+              <br />
+              <input id="email" name="email" type="text" />
+              <br />
+              <br>
+              <label for="phone"> Phone Number : </label>
+              <br />
+              <input id="phone" name="phone" type="number" />
+              <br />
+              <br>
+
+              <label for="Shool">Uni/Shool : </label>
+              <br />
+              <input id="Shool" name="Shool" type="text" />
+              <br />
+              <br>
+
+              <label for="course">Course : </label>
+              <br />
+              <select name="course" id="course">
+                <option value="web development">Web development</option>
+                <option value="video games">Video games</option>
+              </select>
+              <br />
+              <br>
+            </div>
+
+            <br />
+            <input id="sub" type="submit"  value="Subscribe" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-database.js"></script>
+
+  <script src="js/main.js"></script>
+</html>
